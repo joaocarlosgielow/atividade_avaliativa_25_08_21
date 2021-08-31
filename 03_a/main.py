@@ -35,11 +35,11 @@ while continuar:
     elif TipoOperacao == '6':
          discos.ExcluirDisco(input('Informe o titulo do dsico que deseja excluir: '))
     elif TipoOperacao == '7':
-        discos.ListarDiscos()
+        print(discos.ListarDiscos())
     elif TipoOperacao == '8':
-        discos.ListarDiscoGenero(input('Informe o genero que deseja listar: '))
-    elif TipoOperacao == '9'
-        discos.ListarDiscoArtista(input('Informe o artista: '))
+        print(discos.ListarDiscoGenero(input('Informe o genero que deseja listar: ')))
+    elif TipoOperacao == '9':
+        print(discos.ListarDiscoArtista(input('Informe o artista: ')))
     else:
         print('Informação inválida')
 

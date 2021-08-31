@@ -1,5 +1,5 @@
-from Artista import Artista
-from Genero import Genero
+from .Artista import Artista
+from .Genero import Genero
 
 class Discos:
     def __init__(self):
